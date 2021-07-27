@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Ken Tan
+ORG:PulseSync Sdn Bhd (KL);
+TITLE: Managing Director
+TEL;TYPE=VOICE,WORK;VALUE=text:+65 6338 1445
+TEL;TYPE=VOICE,CELL;VALUE=text:+65 9680 8786
+EMAIL;TYPE=WORK,INTERNET,pref:ken.tan@pulsesync.com
+ADR;TYPE=WORK:12 Kallang Avenue #03-31 Aperia – The Annex Singapore 339511
+URL;TYPE=WORK:www.pulsesync.com
+END:VCARD
