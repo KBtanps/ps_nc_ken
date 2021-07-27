@@ -1,0 +1,190 @@
+html,
+body {
+  height: auto;
+  width: auto;
+  margin: 0;
+  justify-content: center;
+  background-color: white;
+}
+/* @media only screen and (min-width: 768px) { } */
+
+section {
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+	height: auto;
+}
+
+p {
+	margin: 0.2rem !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	object-fit: contain;
+}
+
+img.icon {
+	height: 1.5em;
+	width: auto;
+}
+
+img.icon-contact {
+	height: 1.5em;
+	width: auto;
+	margin-right: 1em;
+}
+
+img.profile-pic {
+	
+}
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	height: 100%;
+}
+
+.row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.col {
+	display: block;
+	flex-basis: 0;
+	flex-grow: 1;
+	flex-shrink: 1;
+	margin: 0;
+	padding: 0.1rem;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: visible;
+}
+
+.col.is-8 {
+	flex: none;
+	width: 80%;
+}
+
+.name-title-company {
+	height: 100%;
+	margin-bottom: 5%;
+
+}
+
+.banner {
+	padding-left:0;
+	padding-right:0;
+	margin-bottom: -3.75vh;
+	height: auto;
+}
+
+.primary-info {
+	height: 15%;
+	padding-left: 2%;
+ 	padding-right: 2%;
+}
+
+.secondary-info {
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.text-name {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    font-size: 1.4em;
+    text-align: center;	
+}
+.text-name-ch {
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 0.9em;
+    text-align: center;	
+}
+
+.text-title-company {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 1em;
+    text-align: center;
+}
+.text-title-company-ch{
+    font-family: 'Noto Sans SC', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.text-detail {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 1em;
+}
+
+.text-addressinfo {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.text-address{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #f06432;
+    font-size: 0.75em;
+}
+
+.text-website {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #f06432;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.bottom {
+	height: 25%;
+	margin-top: 10%;
+}
+.bottom-btn {
+	height: 25%;
+	margin-top: 3%;
+}
+.button {
+	background-color: #ffffff;
+	padding: 8px 16px;
+	text-align: center;
+	display: flex;
+	vertical-align: middle;
+	line-height: 1.25em;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	border-radius: 5em;
+	border: 1px solid #efb7a7;
+	box-shadow: 2px 2px 4px rgb(0 0 0 / 15%);
+	color: #a64622;
+	font-weight: 700;
+	white-space: nowrap;
+
+}
